@@ -1,6 +1,6 @@
 {
   "name": "iobroker.stocks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ioBroker stocks Adapter",
   "author": {
     "name": "jachik",
@@ -24,17 +24,16 @@
     "type": "git",
     "url": "https://github.com/jachik/ioBroker.stocks"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-      "grunt": "^0.4.5",
-      "grunt-replace": "^0.9.3",
-      "grunt-contrib-jshint": "^0.11.2",
-      "grunt-jscs": "^2.0.0",
-      "grunt-http": "^1.6.0",
-      "mocha": "^2.3.4",
-      "chai": "^3.4.1",
-      "request": "^2.15.11"
+    "grunt": "^0.4.5",
+    "grunt-replace": "^0.9.3",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-jscs": "^2.0.0",
+    "grunt-http": "^1.6.0",
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "request": "^2.15.11"
   },
   "main": "main.js",
   "scripts": {
