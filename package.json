@@ -1,0 +1,47 @@
+{
+  "name": "iobroker.stocks",
+  "version": "0.0.1",
+  "description": "ioBroker stocks Adapter",
+  "author": {
+    "name": "jachik",
+    "email": "jacek@uni-koblenz.de"
+  },
+  "contributors": [
+    {
+      "name": "jachik",
+      "email": "jacek@uni-koblenz.de"
+    }
+  ],
+  "homepage": "https://github.com/ioBroker/ioBroker.stocks",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "stocks",
+    "Smart Home",
+    "home automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ioBroker/ioBroker.stocks"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+      "grunt": "^0.4.5",
+      "grunt-replace": "^0.9.3",
+      "grunt-contrib-jshint": "^0.11.2",
+      "grunt-jscs": "^2.0.0",
+      "grunt-http": "^1.6.0",
+      "mocha": "^2.3.4",
+      "chai": "^3.4.1",
+      "request": "^2.15.11"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/ioBroker/ioBroker.stocks/issues"
+  },
+  "readmeFilename": "README.md"
+}

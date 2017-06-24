@@ -1,0 +1,33 @@
+{
+    "common": {
+        "name": "stocks",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial adapter",
+                "de": "Initiale Version"
+            }
+        },
+        "title": "Stocks adapter",
+        "desc": {
+            "en": "ioBroker stocks Adapter",
+            "de": "ioBroker Aktienkurs Adapter"
+        },
+        "platform": "Javascript/Node.js",
+        "mode": "schedule",
+        "schedule": "* */4 * * *",
+        "icon": "stocks.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.stocks/master/admin/stocks.png",
+        "keywords": ["stocks", "Aktienkurse"],
+        "readme": "https://github.com/ioBroker/ioBroker.stocks/blob/master/README.md",
+        "loglevel": "info",
+        "type": "general"
+    },
+    "native": {
+        "symbols": ""
+    },
+    "objects": [
+
+    ]
+}

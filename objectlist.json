@@ -1,0 +1,13 @@
+{
+  "Symbol" : {"type" : "STRING"},
+  "LastTradePriceOnly" : {"type" : "CURRENCY"},
+  "Name" : {"type" : "STRING"},
+  "Change" : {"type" : "CURRENCY"},
+  "Currency" : {"type" : "STRING"},
+  "LastTradeDate" : {"type":  "DATE"},
+  "DaysLow" : {"type" : "CURRENCY"},
+  "DaysHigh" : {"type" : "CURRENCY"},
+  "YearLow" : {"type" : "CURRENCY"},
+  "YearHigh" : {"type" : "CURRENCY"},
+  "StockExchange" : {"type" : "STRING"}
+}
