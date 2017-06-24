@@ -1,8 +1,12 @@
 {
     "common": {
         "name": "stocks",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "news": {
+            "0.0.2": {
+                "en": "Changed test-functions",
+                "de": "Test-Anpassungen vorgenommen"
+            },
             "0.0.1": {
                 "en": "initial adapter",
                 "de": "Initiale Version"

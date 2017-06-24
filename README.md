@@ -1,6 +1,9 @@
 ![Logo](admin/stocks.png)
 # ioBroker.stocks
 =================
+[![NPM version](https://img.shields.io/npm/v/iobroker.stocks.svg)](https://www.npmjs.com/package/iobroker.stocks)
+[![Travis CI](https://travis-ci.org/jachik/ioBroker.stocks.svg?branch=master)](https://travis-ci.org/jachik/ioBroker.stocks)
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/2fquda7xh5xqb0u2?svg=true)](https://ci.appveyor.com/project/jachik/iobroker-stocks)
 
 ## Description
 This adapter retrieves actual quotes and other information for configured stock symbols (like AAPL for Apple) from the yahoo finance web service.
