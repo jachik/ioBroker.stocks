@@ -1,8 +1,12 @@
 {
     "common": {
         "name": "stocks",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "news": {
+            "0.0.3": {
+                "en": "Changed package dependencies",
+                "de": "Paketabhängigkeiten angepasst"
+            },
             "0.0.2": {
                 "en": "Changed test-functions",
                 "de": "Test-Anpassungen vorgenommen"
@@ -19,7 +23,7 @@
         },
         "platform": "Javascript/Node.js",
         "mode": "schedule",
-        "schedule": "* */4 * * *",
+        "schedule": "*/30 * * * *",
         "icon": "stocks.png",
         "enabled": true,
         "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.stocks/master/admin/stocks.png",
